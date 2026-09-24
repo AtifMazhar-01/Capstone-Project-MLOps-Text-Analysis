@@ -33,6 +33,7 @@ def load_data(data_url: str) -> pd.DataFrame:
     try:
         df = pd.read_csv(data_url)
         logging.info('Data loaded from %s', data_url)
+        print("COLUMNS IN DATASET:", df.columns.tolist())
         return df
     except pd.errors.ParserError as e:
         logging.error('Failed to parse the CSV file: %s', e)
@@ -75,7 +76,7 @@ def main():
         test_size = params['data_ingestion']['test_size']
         # test_size = 0.2
         
-        df = load_data(data_url='https://raw.githubusercontent.com/AtifMazhar-01/Capstone-Project-MLOps-Text-Analysis/refs/heads/main/notebooks/data.csv')
+        df = load_data(data_url='https://raw.githubusercontent.com/AtifMazhar-01/Datasets/refs/heads/main/data.csv')
         # s3 = s3_connection.s3_operations("bucket-name", "YOUR_KEY_ID", "YOUR_SECRET_KEY")
         # df = s3.fetch_file_from_s3("data.csv")
 
