@@ -995,7 +995,7 @@ Potential areas for further development include:
 Computer Engineering | Machine Learning | Data Science | MLOps
 
 * GitHub: [AtifMazhar-01](https://github.com/AtifMazhar-01)
-* Project Repository: [Capstone Project — MLOps Text Analysis](https://github.com/AtifMazhar-01/Capstone-Project-MLOps-Text-Analysis)
+* Project Repository: [Capstone Project - MLOps Text Analysis](https://github.com/AtifMazhar-01/Capstone-Project-MLOps-Text-Analysis)
 * MLflow Experiments: [DagsHub Tracking UI](https://dagshub.com/AtifMazhar-01/Capstone-Project-MLOps-Text-Analysis.mlflow)
 
 ---
